@@ -1,16 +1,22 @@
-# tractian_challenge
+# Tractian LAMS
 
-A new Flutter project.
+[Tractian](https://tractian.com/) Location and Assets Management System
 
-## Getting Started
+## Stacks
 
-This project is a starting point for a Flutter application.
+**Mobile:** [Flutter](https://docs.flutter.dev/).
 
-A few resources to get you started if this is your first Flutter project:
+### Running Locally
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```
+[√] Flutter (Channel stable, 3.22.1, on Microsoft Windows [versÆo 10.0.22631.3880], locale pt-BR)
+    • Flutter version 3.22.1 on channel stable at C:\src\flutter
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Engine revision 55eae6864b
+    • Dart version 3.4.1
+    • DevTools version 2.34.3
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[Download Flutter Versions](https://docs.flutter.dev/release/archive)
+
+##
