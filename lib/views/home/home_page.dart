@@ -13,7 +13,7 @@ class HomePage extends StatelessWidget {
     controller.init();
     return Scaffold(
       appBar: homeAppBar(),
-      body: companySelector(controller),
+      body: SafeArea(child: companySelector(controller)),
     );
   }
 }

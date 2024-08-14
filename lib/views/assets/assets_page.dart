@@ -16,16 +16,18 @@ class AssetsPage extends StatelessWidget {
     controller.init(companyId);
     return Scaffold(
       appBar: assetsAppBar(),
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          searchField(controller),
-          filters(controller),
-          const Divider(
-            color: AppColors.gray,
-          ),
-          locationAssetTree(controller, controller.nodes)
-        ],
+      body: SafeArea(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            searchField(controller),
+            filters(controller),
+            const Divider(
+              color: AppColors.gray,
+            ),
+            locationAssetTree(controller, controller.nodes)
+          ],
+        ),
       ),
     );
   }
