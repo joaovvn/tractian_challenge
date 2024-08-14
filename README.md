@@ -6,7 +6,7 @@
 
 **Mobile:** [Flutter](https://docs.flutter.dev/).
 
-### Running Locally
+## Running Locally
 
 ```
 [√] Flutter (Channel stable, 3.22.1, on Microsoft Windows [versÆo 10.0.22631.3880], locale pt-BR)
@@ -19,4 +19,10 @@
 
 [Download Flutter Versions](https://docs.flutter.dev/release/archive)
 
-##
+## Improvements
+
+- Tree and nodes formation function.
+- Layout.
+- General performance improvements.
+
+## App Usage
