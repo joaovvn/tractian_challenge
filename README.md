@@ -19,11 +19,13 @@
 
 [Download Flutter Versions](https://docs.flutter.dev/release/archive)
 
-## Improvements
+## Future Improvements
 
 - Tree and nodes formation function.
 - Layout.
 - General performance improvements.
+- Local database for offline usage.
+- Tests.
 
 ## App Usage
 
