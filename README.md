@@ -9,12 +9,12 @@
 ## Running Locally
 
 ```
-[√] Flutter (Channel stable, 3.22.1, on Microsoft Windows [versÆo 10.0.22631.3880], locale pt-BR)
-    • Flutter version 3.22.1 on channel stable at C:\src\flutter
+[√] Flutter (Channel stable, 3.24.2, on Microsoft Windows [versÆo 10.0.22631.4317], locale pt-BR)
+    • Flutter version 3.24.2 on channel stable at C:\src\flutter
     • Upstream repository https://github.com/flutter/flutter.git
-    • Engine revision 55eae6864b
-    • Dart version 3.4.1
-    • DevTools version 2.34.3
+    • Engine revision a6bd3f1de1
+    • Dart version 3.5.2
+    • DevTools version 2.37.2
 ```
 
 [Download Flutter Versions](https://docs.flutter.dev/release/archive)
