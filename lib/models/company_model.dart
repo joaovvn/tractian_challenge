@@ -1,11 +1,7 @@
-class Company {
-  String id;
-  String name;
+import 'package:tractian_challenge/models/base_model.dart';
 
-  Company({
-    required this.id,
-    required this.name,
-  });
+class Company extends Base {
+  Company({required super.id, required super.name});
 
   factory Company.fromJson(Map<String, dynamic> json) {
     return Company(

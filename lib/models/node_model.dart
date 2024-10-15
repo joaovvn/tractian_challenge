@@ -1,8 +1,7 @@
 import 'package:tractian_challenge/constants/app_types.dart';
+import 'package:tractian_challenge/models/base_model.dart';
 
-class NodeModel {
-  String id;
-  String name;
+class NodeModel extends Base {
   int type;
   String? parentId;
   String? sensorType;
@@ -11,8 +10,8 @@ class NodeModel {
   List<NodeModel> childrenNodes = List<NodeModel>.empty(growable: true);
 
   NodeModel({
-    required this.id,
-    required this.name,
+    required super.id,
+    required super.name,
     required this.type,
     this.parentId,
     this.sensorType,

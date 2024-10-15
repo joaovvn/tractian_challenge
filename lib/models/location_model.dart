@@ -1,11 +1,11 @@
-class Location {
-  String id;
-  String name;
+import 'package:tractian_challenge/models/base_model.dart';
+
+class Location extends Base {
   String? parentId;
 
   Location({
-    required this.id,
-    required this.name,
+    required super.id,
+    required super.name,
     this.parentId,
   });
 

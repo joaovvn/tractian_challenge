@@ -1,6 +1,6 @@
-class Asset {
-  String id;
-  String name;
+import 'package:tractian_challenge/models/base_model.dart';
+
+class Asset extends Base {
   String? parentId;
   String? sensorId;
   String? sensorType;
@@ -9,8 +9,8 @@ class Asset {
   String? locationId;
 
   Asset({
-    required this.id,
-    required this.name,
+    required super.id,
+    required super.name,
     this.parentId,
     this.sensorId,
     this.sensorType,
